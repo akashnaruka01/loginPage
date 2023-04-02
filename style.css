@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans';
+}
+
+body{
+    background-image: url("background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    box-shadow: 10px 20px 30px gray;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 60%;
+    left: 35%;
+    padding: 15px;
+    background-image: linear-gradient(to bottom right ,rgb(230, 165, 109) 40%, rgb(230, 90, 90));  /* for giving multiple color to background*/
+    border-radius: 50px 3px 50px 3px;
+}
+
+.temp{
+    margin-left: 20px;
+}
+
+.SignUp-Button{
+    display: block;
+}
+
+.input{
+    margin: 20px;
+    font-weight: bold;
+}
+
+.input input{
+    padding: 2px;
+    border-radius: 10px;
+    border: 2px  solid grey;
+    width: 80%;
+}
+
+p{
+    padding: 0 0 2px 4px;
+}
+
+.SignUp-Button{
+    border-radius: 10px;
+    border: 2px  solid grey;
+    width: 70%;
+    background-color: rgb(6, 143, 241);
+    color: white;
+    padding: 4px;
+}
+
+.SignUp-Button:hover{
+    background-color: rgb(47, 129, 188);
+    cursor: pointer;
+}
